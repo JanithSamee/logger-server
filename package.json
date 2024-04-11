@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "view-log": "node scripts/viewlog.js --tail",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "socket.io": "^4.7.5",
+        "tail": "^2.2.6"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
