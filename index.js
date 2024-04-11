@@ -39,7 +39,8 @@ const server = net.createServer((socket) => {
     });
 });
 
+const PORT = process.env.PORT;
 // Start the server and listen on port 4444
-server.listen(process.env.PORT, () => {
-    console.log("[INFO][Server started on port 4444]");
+server.listen(PORT, () => {
+    console.log(`[INFO][Server started on port ${PORT}]`);
 });
